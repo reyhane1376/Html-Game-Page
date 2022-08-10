@@ -1,0 +1,31 @@
+/* font*/
+@font-face {
+	font-family: Vazir-Bold;
+	src: url(../font/Vazir-Bold-FD-WOL.eot) format('eot'),
+	     url(../font/Vazir-Bold-FD-WOL.woff) format('woff'),
+	     url(../font/Vazir-Bold-FD-WOL.ttf) format('truetype');
+  }
+  @font-face {
+	font-family: Vazir-FD;
+	src: url(../font/Vazir-FD-WOL.eot) format('eot'),
+	     url(../font/Vazir-FD-WOL.woff) format('woff'),
+	     url(../font/Vazir-FD-WOL.ttf) format('truetype');
+  }
+    @font-face {
+	font-family: Vazir-Light;
+	src: url(../font/Vazir-Light-FD-WOL.eot) format('eot'),
+	     url(../font/Vazir-Light-FD-WOL.woff) format('woff'),
+	     url(../font/Vazir-Light-FD-WOL.ttf) format('truetype');
+  }
+   @font-face {
+	font-family: Vazir-Medium;
+	src: url(../font/Vazir-Medium-FD-WOL.eot) format('eot'),
+	     url(../font/Vazir-Medium-FD-WOL.woff) format('woff'),
+	     url(../font/Vazir-Medium-FD-WOL.ttf) format('truetype');
+  }
+     @font-face {
+	font-family: Vazir-Thin;
+	src: url(../font/Vazir-Thin-FD-WOL.eot) format('eot'),
+	     url(../font/Vazir-Thin-FD-WOL.woff) format('woff'),
+	     url(../font/Vazir-Thin-FD-WOL.ttf) format('truetype');
+  }

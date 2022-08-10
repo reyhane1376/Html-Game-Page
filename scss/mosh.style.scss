@@ -1,0 +1,535 @@
+$abi:#27bec4;
+$narengi:#ff6a37;
+$khakestry:#aeaeae;
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    border: 0 none;
+    direction: rtl;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Vazir-Medium;
+}
+
+header {
+    background-color: #ffffff;
+    overflow: hidden;
+    .center {
+        .top_bar_menu {
+            float: right;
+            .menu {
+                ul {
+                    list-style: none;
+                    li {
+                        position: relative;
+                        float: right;
+                        .userIcon {
+                            background-image: url(../image/user.png);
+                            display: block;
+                            float: right;
+                            transition: 500ms;
+                        }
+                        &:hover .userIcon {
+                            background-image: url(../image/user1.png);
+                            transform: scale(1.1);
+                        }
+                        &:last-child {
+                            &::after {
+                                display: none;
+                            }
+                        }
+                        &::after {
+                            content: "";
+                            background-color: #d8d6d6;
+                            position: absolute;
+                        }
+                        a {
+                            float: right;
+                            display: block;
+                            transition: 500ms;
+                            h4 {
+                                color: $abi;
+                                text-align: center;
+                                transition: 200ms;
+                            }
+                            h5 {
+                                color: $khakestry;
+                                text-align: center;
+                                font-weight: 500;
+                                letter-spacing: 1px;
+                                transition: 200ms;
+                            }
+                            &:hover h4 {
+                                color: $narengi;
+                                transform: scale(1.1);
+                            }
+                            &:hover h5 {
+                                color: $abi;
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+            }
+            .search {
+                form {
+                    background-color: #f5f5f5;
+                    position: relative;
+                    border-radius: 8px;
+                    &::after {
+                        content: "";
+                        background-color: #d8d6d6;
+                        position: absolute;
+                        float: left;
+                    }
+                    #search {
+                        background-color: #f5f5f5;
+                        float: right;
+                        color: #c2c2c2;
+                        border-radius: 8px;
+                        &::placeholder {
+                            color: #c5c5c5;
+                        }
+                    }
+                    #search_sub {
+                        display: none;
+                    }
+                    label {
+                        display: block;
+                        float: left;
+                        background-image: url(../image/search.png);
+                    }
+                }
+            }
+        }
+    }
+    .item {
+        float: left;
+        .logo {
+            display: block;
+            float: right;
+            text-align: center;
+            margin-top: 18px;
+            transition: 500ms;
+            &:hover img {
+                opacity: 0.6;
+            }
+        }
+        .buy_bag {
+            width: 95.5px;
+            height: 140px;
+            border-right: 1px solid #d8d6d6;
+            display: block;
+            float: right;
+            &:hover .icon {
+                margin: 7px 11.5px 0px 11.5px;
+            }
+            &:hover strong {
+                transform: scale(1.1);
+            }
+            &:hover strong i {
+                background-color: $abi;
+            }
+            &:hover span {
+                color: $abi;
+            }
+            .icon {
+                display: block;
+                background-image: url(../image/kharid.png);
+                transition: 400ms;
+            }
+            strong {
+                color: $khakestry;
+                font-weight: 200;
+                display: block;
+                text-align: center;
+                transition: 400ms;
+                i {
+                    background-color: $narengi;
+                    color: #ffffff;
+                    border-radius: 3px;
+                    text-align: center;
+                    transition: 400ms;
+                }
+            }
+            span {
+                color: $narengi;
+                display: block;
+                text-align: center;
+                transition: 400ms;
+            }
+        }
+        .contact {
+            display: block;
+            float: right;
+            &:hover .icon {
+                transform: rotate(360deg);
+            }
+            &:hover h5 {
+                transform: scale(1.2);
+                color: $abi;
+            }
+            &:hover h6 {
+                transform: scale(1.1);
+            }
+            .icon {
+                display: block;
+                background-image: url(../image/phone.png);
+                transition: 500ms;
+            }
+            h5 {
+                color: $narengi;
+                text-align: center;
+                transition: 500ms;
+            }
+            h6 {
+                color: $khakestry;
+                text-align: center;
+                transition: 500ms;
+            }
+        }
+    }
+}
+
+.sliders {
+    overflow: hidden;
+    .center {
+        margin: 0px auto;
+        .right {
+            float: right;
+            .slider {
+                overflow: hidden;
+                .item {
+                    float: right;
+                    .btn_item {
+                        background-color: #ffffff;
+                        border-right: 2px solid #cccccc;
+                        position: relative;
+                        opacity: 0.7;
+                        transition: 500ms;
+                        &:hover {
+                            opacity: 1;
+                            cursor: pointer;
+                        }
+                        &::after {
+                            content: "";
+                            background-image: url(../picture/btn1.png);
+                            position: absolute;
+                        }
+                        h5 {
+                            color: $abi;
+                        }
+                        h6 {
+                            color: $khakestry;
+                        }
+                    }
+                    .active {
+                        opacity: 1;
+                        &::after {
+                            content: "";
+                            background-image: url(../picture/btn2.png);
+                            position: absolute;
+                        }
+                    }
+                }
+                .imgs {
+                    float: right;
+                }
+            }
+        }
+        .levels {
+            background-color: #ffffff;
+            color: $khakestry;
+            ul {
+                list-style: none;
+                li {
+                    float: right;
+                    position: relative;
+                    transition: 500ms;
+                    &:last-child {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                    h5 {
+                        color: #7d7d7d;
+                    }
+                    h6 {
+                        font-weight: 200;
+                        color: #a3a3a3;
+                    }
+                    .level_gift {
+                        display: block;
+                        background-image: url(../picture/gift.png);
+                        float: right;
+                    }
+                    .level_pay {
+                        display: block;
+                        background-image: url(../picture/pay.png);
+                        float: right;
+                    }
+                    .level_check {
+                        display: block;
+                        background-image: url(../picture/check.png);
+                        float: right;
+                    }
+                    &::after {
+                        content: "";
+                        background-color: #c4c4c4;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+    .left {
+        float: left;
+        a {
+            transition: 500ms;
+            cursor: pointer;
+            opacity: 0.7;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        .aparat {
+            float: left;
+        }
+        .telegram {
+            float: left;
+        }
+        .newslatter {
+            background-color: #27bec4;
+            float: left;
+            p {
+                color: #ffffff;
+                text-align: center;
+                font-weight: 550;
+            }
+            form {
+                background-color: #29aeb4;
+                border-radius: 5px;
+                position: relative;
+                input[type=email] {
+                    background-color: #29aeb4;
+                    float: right;
+                    color: #ffffff;
+                    text-align: center;
+                    float: left;
+                    &::placeholder {
+                        color: #dfdfdf;
+                    }
+                }
+                &::after {
+                    content: "";
+                    background-color: #169096;
+                    position: absolute;
+                }
+                &::before {
+                    content: "";
+                    background-image: url(../picture/email.png);
+                    position: absolute;
+                }
+                input[type=submit] {
+                    background-color: #ffffff;
+                    float: right;
+                    color: #7c7979;
+                    font-weight: 500;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.line {
+    background-image: url(../picture/line.png);
+    position: relative;
+    .title-gift {
+        position: absolute;
+        z-index: 999999;
+        background-color: #f5f5f5;
+        i.icon {
+            display: block;
+            background-image: url(../picture/gifts.png);
+            float: right;
+        }
+        h4 {
+            float: right;
+            color: $narengi;
+        }
+    }
+}
+
+.gifts {
+    overflow: hidden;
+    .center {
+        overflow: hidden;
+        margin: 0 auto;
+        .gift-box {
+            position: relative;
+            .next {
+                position: absolute;
+                background-color: #ffffffb0;
+                overflow: hidden;
+                z-index: 999999;
+                box-shadow: 0 0 5px 0 #5f5f5f;
+                cursor: pointer;
+                display: none;
+                .icon {
+                    background-image: url(../picture/btn3.png);
+                }
+            }
+            &:hover .next {
+                display: inline;
+            }
+            .prev {
+                position: absolute;
+                background-color: #ffffffb0;
+                overflow: hidden;
+                z-index: 999999999;
+                box-shadow: 0 0 5px 0 #5f5f5f;
+                cursor: pointer;
+                display: none;
+                .icon {
+                    background-image: url(../picture/btn4.png);
+                }
+            }
+            &:hover .prev {
+                display: inline;
+            }
+            ul {
+                list-style: none;
+                li {
+                    background-color: #ffffff;
+                    float: right;
+                    box-shadow: 0 0 5px 0 #888888;
+                    overflow: hidden;
+                    border-radius: 3px;
+                    .image {
+                        float: right;
+                        overflow: hidden;
+                        img {
+                            border-radius: 5px;
+                        }
+                    }
+                    .text {
+                        float: right;
+                        overflow: hidden;
+                        .title {
+                            display: block;
+                            transition: 500ms;
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                            h2 {
+                                font-size: 8pt;
+                                text-align: center;
+                                transition: 500ms;
+                                color: $khakestry;
+                            }
+                            &:hover h2 {
+                                color: $narengi;
+                            }
+                        }
+                        p {
+                            transition: 500ms;
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                            strong {
+                                font-size: 6pt;
+                                color: $khakestry;
+                                text-decoration: line-through;
+                                font-weight: normal;
+                            }
+                            span {
+                                font-size: 7pt;
+                                color: $narengi;
+                                font-weight: bold;
+                            }
+                        }
+                        .moderIcon {
+                            display: block;
+                            float: right;
+                            .more {
+                                display: block;
+                                background-image: url(../picture/more.png);
+                            }
+                            .addCard {
+                                display: block;
+                                background-image: url(../picture/addbag.png);
+                            }
+                            .like {
+                                display: block;
+                                background-image: url(../picture/like.png);
+                            }
+                            i {
+                                transition: 500ms;
+                            }
+                            &:hover i {
+                                transform: scale(1.3);
+                            }
+                            &:hover .more {
+                                background-image: url(../picture/more-hover.png);
+                            }
+                            &:hover .addCard {
+                                background-image: url(../picture/addbag-hover.png);
+                            }
+                            &:hover .like {
+                                background-image: url(../picture/like-hover.png);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    overflow: hidden;
+    .center {
+        overflow: hidden;
+        .right {
+            overflow: hidden;
+            float: right;
+            ul {
+                list-style: none;
+                li {
+                    float: right;
+                    position: relative;
+                    a {
+                        display: block;
+                        color: #6e6d6d;
+                        transition: 500ms;
+                        &:hover {
+                            color: $narengi;
+                        }
+                    }
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        background-color: #6e6d6d;
+                        transform: rotate(20deg);
+                    }
+                    &:last-child::after {
+                        display: none;
+                    }
+                }
+            }
+            p {
+                color: #6e6d6d;
+                float: right;
+                font-size: 9pt;
+            }
+        }
+        .left {
+            float: left;
+        }
+    }
+}

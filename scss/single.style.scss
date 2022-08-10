@@ -1,0 +1,479 @@
+$abi:#27bec4;
+$narengi:#ff6a37;
+$khakestry:#aeaeae;
+.single {
+    overflow: hidden;
+    .center {
+        overflow: hidden;
+        .content {
+            overflow: hidden;
+            float: right;
+            .cover {
+                overflow: hidden;
+                position: relative;
+                .bigcover {
+                    float: right;
+                }
+                .smallwidth {
+                    border-radius: 15px;
+                    position: absolute;
+                    ;
+                }
+                .infromation {
+                    overflow: hidden;
+                    float: right;
+                    .header {
+                        background-color: #ffffff;
+                        overflow: hidden;
+                        h1 {
+                            float: right;
+                            color: #6c6c6c;
+                        }
+                        .btnBuy {
+                            float: left;
+                            background-color: $abi;
+                            color: #ffffff;
+                            border-radius: 10px;
+                            text-align: center;
+                            display: block;
+                            cursor: pointer;
+                            transition: 500ms;
+                            &:hover {
+                                background-color: $narengi;
+                            }
+                        }
+                        p.price {
+                            float: left;
+                            .disprice {
+                                color: $khakestry;
+                                text-decoration: line-through;
+                            }
+                            .price {
+                                color: $abi;
+                                font-weight: bolder;
+                                transition: 500ms;
+                                cursor: pointer;
+                                &:hover {
+                                    color: $narengi;
+                                }
+                            }
+                        }
+                    }
+                    .footer {
+                        background-color: #e1e1e1;
+                        overflow: hidden;
+                        .ganer {
+                            float: right;
+                            color: #767676;
+                        }
+                        .date {
+                            float: right;
+                            color: #767676;
+                        }
+                        .rate {
+                            float: left;
+                            .chart {
+                                float: left;
+                                .chartValue {
+                                    background-color: $narengi;
+                                    float: left;
+                                }
+                            }
+                            p {
+                                float: left;
+                                direction: ltr;
+                                .orange {
+                                    font-weight: bolder;
+                                    color: $narengi;
+                                }
+                                .gray {
+                                    font-size: 8pt;
+                                    color: $khakestry;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .feature {
+                overflow: hidden;
+                color: #787878;
+                overflow: hidden;
+                ul {
+                    list-style: none;
+                    li {
+                        float: right;
+                        background-color: #ffffff;
+                        position: relative;
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            background-image: url(../picture/tik.png);
+                        }
+                        span {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .fullText {
+                background-color: #ffffff;
+                color: #6f6f6f;
+            }
+            .suggest {
+                background-color: #ffffff;
+                position: relative;
+                .header {
+                    overflow: hidden;
+                    position: relative;
+                    float: right;
+                    background-image: url(../picture/bigStar.png);
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    margin: 0;
+                    .icon {
+                        background-image: url(../picture/star.png);
+                        float: right;
+                    }
+                    h6 {
+                        font-weight: normal;
+                        float: right;
+                    }
+                    p {
+                        font-weight: bolder;
+                        color: $narengi;
+                        float: right;
+                        display: block;
+                    }
+                    span {
+                        position: absolute;
+                        color: #e6e6e6;
+                    }
+                }
+                .slider {
+                    z-index: 10000000000000;
+                    .groupbox {
+                        position: relative;
+                        .next {
+                            position: absolute;
+                            background-color: #ffffffb0;
+                            overflow: hidden;
+                            z-index: 999999;
+                            box-shadow: 0 0 5px 0 #5f5f5f;
+                            cursor: pointer;
+                            display: none;
+                            .icon {
+                                background-image: url(../picture/btn3.png);
+                            }
+                        }
+                        &:hover .next {
+                            display: inline;
+                        }
+                        .prev {
+                            position: absolute;
+                            background-color: #ffffffb0;
+                            overflow: hidden;
+                            z-index: 999999;
+                            box-shadow: 0 0 5px 0 #5f5f5f;
+                            cursor: pointer;
+                            display: none;
+                            .icon {
+                                background-image: url(../picture/btn4.png);
+                            }
+                        }
+                        &:hover .prev {
+                            display: inline;
+                        }
+                        ul {
+                            list-style: none;
+                            li {
+                                float: right;
+                                background-color: #ffffff;
+                                .image {
+                                    overflow: hidden;
+                                    position: relative;
+                                    .hoverbox {
+                                        overflow: hidden;
+                                        background-color: #0505059d;
+                                        position: absolute;
+                                        transition: 700ms;
+                                        .childIcon {
+                                            display: block;
+                                            float: right;
+                                            i {
+                                                transition: 500ms;
+                                            }
+                                            &:hover i {
+                                                transform: scale(1.6);
+                                            }
+                                            &:hover .more {
+                                                background-image: url(../picture/more-hover.png);
+                                            }
+                                            &:hover .addCard {
+                                                background-image: url(../picture/addbag-hover.png);
+                                            }
+                                            &:hover .like {
+                                                background-image: url(../picture/like-hover.png);
+                                            }
+                                            .more {
+                                                display: block;
+                                                background-image: url(../picture/more.png);
+                                            }
+                                            .addCard {
+                                                display: block;
+                                                background-image: url(../picture/addbag.png);
+                                            }
+                                            .like {
+                                                display: block;
+                                                background-image: url(../picture/like.png);
+                                            }
+                                        }
+                                    }
+                                }
+                                .title {
+                                    display: block;
+                                    color: #898989;
+                                    overflow: hidden;
+                                    transition: 500ms;
+                                    &:hover {
+                                        color: $abi;
+                                        transform: scale(1.1);
+                                    }
+                                    h6 {
+                                        text-align: center;
+                                    }
+                                }
+                                p {
+                                    text-align: center;
+                                    transition: 500ms;
+                                    &:hover {
+                                        transform: scale(1.2);
+                                    }
+                                    &:hover .price {
+                                        color: $narengi;
+                                    }
+                                    .disprice {
+                                        color: #898989;
+                                        text-decoration: line-through;
+                                    }
+                                    .price {
+                                        color: $abi;
+                                    }
+                                }
+                                .moderIcon {
+                                    display: block;
+                                    float: right;
+                                    .more {
+                                        display: block;
+                                        background-image: url(../picture/more.png);
+                                    }
+                                    .addCard {
+                                        display: block;
+                                        background-image: url(../picture/addbag.png);
+                                    }
+                                    .like {
+                                        display: block;
+                                        background-image: url(../picture/like.png);
+                                    }
+                                    i {
+                                        transition: 500ms;
+                                    }
+                                    &:hover i {
+                                        transform: scale(1.3);
+                                    }
+                                    &:hover .more {
+                                        background-image: url(../picture/more-hover.png);
+                                    }
+                                    &:hover .addCard {
+                                        background-image: url(../picture/addbag-hover.png);
+                                    }
+                                    &:hover .like {
+                                        background-image: url(../picture/like-hover.png);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .comment {
+                background-color: #ffffff;
+                color: #6f6f6f;
+                .header {
+                    overflow: hidden;
+                    position: relative;
+                    background-image: url(../picture/bigcomment.png);
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    margin: 0;
+                    .icon {
+                        background-image: url(../picture/comment.png);
+                        float: right;
+                    }
+                    h6 {
+                        font-weight: normal;
+                        float: right;
+                    }
+                    p {
+                        font-weight: bolder;
+                        color: $abi;
+                        float: right;
+                    }
+                    span {
+                        position: absolute;
+                        color: #e6e6e6;
+                    }
+                }
+                .list {
+                    ul {
+                        list-style: none;
+                        li {
+                            overflow: hidden;
+                            .commentText {
+                                background-color: #f5f5f5;
+                                .head {
+                                    strong {
+                                        color: $narengi;
+                                        float: right;
+                                        font-weight: bolder;
+                                    }
+                                    span {
+                                        float: left;
+                                        display: block;
+                                    }
+                                }
+                                .text {
+                                    text-align: justify;
+                                }
+                            }
+                            .respons {
+                                overflow: hidden;
+                                strong {
+                                    float: right;
+                                    font-weight: bolder;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sidebar {
+            overflow: hidden;
+            float: left;
+            .system {
+                background-color: #ffffff;
+                position: relative;
+                .title {
+                    float: right;
+                }
+                .list {
+                    ul {
+                        list-style: none;
+                        li {
+                            overflow: hidden;
+                            .subject {
+                                background-color: #aeaeae;
+                                float: left;
+                                span {
+                                    text-align: center;
+                                    color: #ffffff;
+                                    float: left;
+                                    display: block;
+                                }
+                            }
+                            .value {
+                                float: left;
+                                span {
+                                    color: #7d7d7d;
+                                    display: block;
+                                    direction: ltr !important;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .orange {
+                .title {
+                    p {
+                        color: $narengi;
+                    }
+                }
+                &::after {
+                    position: absolute;
+                    content: "";
+                    background-image: url(../image/orangeicon.png);
+                }
+            }
+            .blue {
+                .title {
+                    p {
+                        color: $abi;
+                    }
+                }
+                &::after {
+                    position: absolute;
+                    content: "";
+                    background-image: url(../image/blueicon.png);
+                }
+            }
+            .newslatter {
+                background-color: #ff6a37;
+                float: left;
+                p {
+                    color: #ffffff;
+                    text-align: center;
+                    font-weight: 550;
+                }
+                form {
+                    background-color: #e55f31;
+                    border-radius: 5px;
+                    position: relative;
+                    input[type=email] {
+                        background-color: #e55f31;
+                        float: right;
+                        color: #ffffff;
+                        text-align: center;
+                        float: left;
+                        &::placeholder {
+                            color: #dfdfdf;
+                        }
+                    }
+                    &::after {
+                        content: "";
+                        background-color: #ffffff;
+                        position: absolute;
+                    }
+                    &::before {
+                        content: "";
+                        background-image: url(../picture/emailwhite.png);
+                        position: absolute;
+                    }
+                    input[type=submit] {
+                        background-color: #ffffff;
+                        float: right;
+                        color: #7c7979;
+                        font-weight: 500;
+                        border-radius: 2px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .namad {
+                background-color: #ffffff;
+                float: left;
+            }
+            .ads {
+                background-color: #ffffff;
+                float: left;
+                a {
+                    img {
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,803 @@
+$abi:#27bec4;
+$narengi:#ff6a37;
+$khakestry:#aeaeae;
+@media(min-width:1024px) {
+    .order {
+        width: 100%;
+        height: 300px;
+        .center {
+            width: 1024px;
+            height: 300px;
+            margin: 0 auto;
+            .obtn {
+                width: 1024px;
+                height: 28px;
+                ul {
+                    li {
+                        a {
+                            min-width: 30px;
+                            height: 16px;
+                            border: 1px solid $khakestry;
+                            margin: 0 5px;
+                            font-size: 10pt;
+                            padding: 0 5px 5px 5px;
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                        .active {
+                            border: 1px solid $abi;
+                        }
+                        .active::after {
+                            width: 0px;
+                            height: 0px;
+                            bottom: -10px;
+                            left: 45%;
+                            border-top: 5px solid $abi;
+                            border-right: 5px solid transparent;
+                            border-left: 5px solid transparent;
+                            border-bottom: 5px solid transparent;
+                        }
+                    }
+                }
+            }
+            .olist {
+                width: 1024px;
+                height: 272px;
+                .groupbox {
+                    width: 1024px;
+                    height: 272px;
+                    .next {
+                        width: 30px;
+                        height: 80px;
+                        top: 100px;
+                        right: -15px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 29.5px 9px 0 0;
+                        }
+                    }
+                    .prev {
+                        width: 30px;
+                        height: 80px;
+                        top: 100px;
+                        left: -15px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 29.5px 9px 0 0;
+                        }
+                    }
+                    ul {
+                        li {
+                            float: right;
+                            width: 194.8px;
+                            height: 270px;
+                            border: 1px solid #dfdfdf;
+                            margin-right: 10px;
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                            .image {
+                                width: 182.8px;
+                                height: 180px;
+                                margin: 6px;
+                                &:hover .hoverbox {
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hoverbox {
+                                    width: 182.8px;
+                                    height: 180px;
+                                    top: 180px;
+                                    right: 182.8px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 80px 10px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .addCard {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 51.4px;
+                                    }
+                                }
+                                img {
+                                    width: 182.8px;
+                                    height: 180px;
+                                }
+                            }
+                            .title {
+                                width: 182.8px;
+                                margin: 6px;
+                            }
+                            p {
+                                .disprice {
+                                    font-size: 8pt;
+                                }
+                                .price {
+                                    font-size: 8pt;
+                                }
+                            }
+                            .moderIcon {
+                                width: 20px;
+                                height: 20px;
+                                margin: 5px 10px 0 0;
+                                .more {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                .addCard {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                .like {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .moderIcon1 {
+                                margin-right: 51.4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .news {
+        width: 100%;
+        height: 285px;
+        .center {
+            width: 1024px;
+            height: 285px;
+            margin: 0 auto;
+            .title {
+                width: 1022px;
+                height: 37px;
+                border: 1px solid #eeeeee;
+                border-bottom: 2px solid #eeeeee;
+                .right {
+                    width: 115px;
+                    height: 37px;
+                    i {
+                        width: 18px;
+                        height: 18px;
+                        margin: 9.5px;
+                    }
+                    h3 {
+                        font-size: 9pt;
+                        margin-top: 5px;
+                    }
+                    h5 {
+                        font-size: 6pt;
+                    }
+                }
+                a.more {
+                    font-size: 10pt;
+                    margin: 7px 0 0 9.5px;
+                }
+            }
+            .list {
+                width: 1024px;
+                height: 235px;
+                margin-top: 10px;
+                ul {
+                    li {
+                        width: 248px;
+                        height: 235px;
+                        margin: 0 10px 0 0;
+                        .image {
+                            width: 240px;
+                            height: 160px;
+                            &:hover .hoverbox {
+                                width: 240.5px;
+                                height: 160px;
+                                top: 0;
+                                right: 0;
+                            }
+                            .hoverbox {
+                                width: 0;
+                                height: 0;
+                                top: 80px;
+                                right: 120px;
+                                a {
+                                    width: 88px;
+                                    height: 20px;
+                                    margin-top: 5px;
+                                    span {
+                                        width: 88px;
+                                        height: 19px;
+                                        font-size: 8pt;
+                                        border-bottom: 1px solid #4e4d4c;
+                                        border-radius: 5px;
+                                        &:hover {
+                                            border-bottom: 1px solid #cb532a;
+                                        }
+                                    }
+                                }
+                            }
+                            img {
+                                width: 240.5px;
+                                height: 160px;
+                                border: 1px solid #c9c9c9;
+                                border-radius: 3px;
+                            }
+                        }
+                        a {
+                            width: 240.5px;
+                            height: 20px;
+                            margin-top: 5px;
+                            h2 {
+                                width: 152.5px;
+                                height: 20px;
+                                font-size: 7pt;
+                            }
+                            span {
+                                width: 88px;
+                                height: 19px;
+                                font-size: 8pt;
+                                border-bottom: 1px solid #6f6f6f;
+                                &:hover {
+                                    border-bottom: 1px solid #cb532a;
+                                }
+                            }
+                        }
+                        p {
+                            width: 219.5px;
+                            font-size: 8pt;
+                        }
+                        &:first-child {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    .order {
+        width: 100%;
+        height: 300px;
+        .center {
+            width: 1024px;
+            height: 300px;
+            margin: 0 auto;
+            .obtn {
+                width: 1024px;
+                height: 28px;
+                ul {
+                    li {
+                        a {
+                            min-width: 30px;
+                            height: 16px;
+                            border: 1px solid $khakestry;
+                            margin: 0 5px;
+                            font-size: 10pt;
+                            padding: 0 5px 5px 5px;
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                        .active {
+                            border: 1px solid $abi;
+                        }
+                        .active::after {
+                            width: 0px;
+                            height: 0px;
+                            bottom: -10px;
+                            left: 45%;
+                            border-top: 5px solid $abi;
+                            border-right: 5px solid transparent;
+                            border-left: 5px solid transparent;
+                            border-bottom: 5px solid transparent;
+                        }
+                    }
+                }
+            }
+            .olist {
+                width: 1024px;
+                height: 272px;
+                .groupbox {
+                    width: 1024px;
+                    height: 272px;
+                    .next {
+                        width: 30px;
+                        height: 80px;
+                        top: 100px;
+                        right: -15px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 29.5px 9px 0 0;
+                        }
+                    }
+                    .prev {
+                        width: 30px;
+                        height: 80px;
+                        top: 100px;
+                        left: -15px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 29.5px 9px 0 0;
+                        }
+                    }
+                    ul {
+                        li {
+                            float: right;
+                            width: 194.8px;
+                            height: 270px;
+                            border: 1px solid #dfdfdf;
+                            margin-right: 10px;
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                            .image {
+                                width: 182.8px;
+                                height: 180px;
+                                margin: 6px;
+                                &:hover .hoverbox {
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hoverbox {
+                                    width: 182.8px;
+                                    height: 180px;
+                                    top: 180px;
+                                    right: 182.8px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 80px 10px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .addCard {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 51.4px;
+                                    }
+                                }
+                                img {
+                                    width: 182.8px;
+                                    height: 180px;
+                                }
+                            }
+                            .title {
+                                width: 182.8px;
+                                margin: 6px;
+                            }
+                            p {
+                                .disprice {
+                                    font-size: 8pt;
+                                }
+                                .price {
+                                    font-size: 8pt;
+                                }
+                            }
+                            .moderIcon {
+                                width: 20px;
+                                height: 20px;
+                                margin: 5px 10px 0 0;
+                                .more {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                .addCard {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                .like {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .moderIcon1 {
+                                margin-right: 51.4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .news {
+        width: 100%;
+        height: 285px;
+        .center {
+            width: 1024px;
+            height: 285px;
+            margin: 0 auto;
+            .title {
+                width: 1022px;
+                height: 37px;
+                border: 1px solid #eeeeee;
+                border-bottom: 2px solid #eeeeee;
+                .right {
+                    width: 115px;
+                    height: 37px;
+                    i {
+                        width: 18px;
+                        height: 18px;
+                        margin: 9.5px;
+                    }
+                    h3 {
+                        font-size: 9pt;
+                        margin-top: 5px;
+                    }
+                    h5 {
+                        font-size: 6pt;
+                    }
+                }
+                a.more {
+                    font-size: 10pt;
+                    margin: 7px 0 0 9.5px;
+                }
+            }
+            .list {
+                width: 1024px;
+                height: 235px;
+                margin-top: 10px;
+                ul {
+                    li {
+                        width: 248px;
+                        height: 235px;
+                        margin: 0 10px 0 0;
+                        .image {
+                            width: 240px;
+                            height: 160px;
+                            &:hover .hoverbox {
+                                width: 240.5px;
+                                height: 160px;
+                                top: 0;
+                                right: 0;
+                            }
+                            .hoverbox {
+                                width: 0;
+                                height: 0;
+                                top: 80px;
+                                right: 120px;
+                                a {
+                                    width: 88px;
+                                    height: 20px;
+                                    margin-top: 5px;
+                                    span {
+                                        width: 88px;
+                                        height: 19px;
+                                        font-size: 8pt;
+                                        border-bottom: 1px solid #4e4d4c;
+                                        border-radius: 5px;
+                                        &:hover {
+                                            border-bottom: 1px solid #cb532a;
+                                        }
+                                    }
+                                }
+                            }
+                            img {
+                                width: 240.5px;
+                                height: 160px;
+                                border: 1px solid #c9c9c9;
+                                border-radius: 3px;
+                            }
+                        }
+                        a {
+                            width: 240.5px;
+                            height: 20px;
+                            margin-top: 5px;
+                            h2 {
+                                width: 152.5px;
+                                height: 20px;
+                                font-size: 7pt;
+                            }
+                            span {
+                                width: 88px;
+                                height: 19px;
+                                font-size: 8pt;
+                                border-bottom: 1px solid #6f6f6f;
+                                &:hover {
+                                    border-bottom: 1px solid #cb532a;
+                                }
+                            }
+                        }
+                        p {
+                            width: 219.5px;
+                            font-size: 8pt;
+                        }
+                        &:first-child {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:996px) {
+    .order {
+        width: 100%;
+        height: 300px;
+        .center {
+            width: 800px;
+            height: 300px;
+            margin: 0 auto;
+            .obtn {
+                width: 800px;
+                height: 28px;
+                ul {
+                    li {
+                        a {
+                            min-width: 30px;
+                            height: 16px;
+                            border: 1px solid $khakestry;
+                            margin: 0 5px;
+                            font-size: 10pt;
+                            padding: 0 5px 5px 5px;
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                        .active {
+                            border: 1px solid $abi;
+                        }
+                        .active::after {
+                            width: 0px;
+                            height: 0px;
+                            bottom: -10px;
+                            left: 45%;
+                            border-top: 5px solid $abi;
+                            border-right: 5px solid transparent;
+                            border-left: 5px solid transparent;
+                            border-bottom: 5px solid transparent;
+                        }
+                    }
+                }
+            }
+            .olist {
+                width: 800px;
+                height: 272px;
+                .groupbox {
+                    width: 800px;
+                    height: 272px;
+                    .next {
+                        width: 30px;
+                        height: 80px;
+                        top: 100px;
+                        right: -15px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 29.5px 9px 0 0;
+                        }
+                    }
+                    .prev {
+                        width: 30px;
+                        height: 80px;
+                        top: 100px;
+                        left: -15px;
+                        .icon {
+                            width: 14px;
+                            height: 23px;
+                            margin: 29.5px 9px 0 0;
+                        }
+                    }
+                    ul {
+                        li {
+                            width: 154px;
+                            height: 270px;
+                            border: 1px solid #dfdfdf;
+                            margin-right: 5px;
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                            .image {
+                                width: 143px;
+                                height: 140px;
+                                margin: 6px;
+                                &:hover .hoverbox {
+                                    top: 0;
+                                    right: 0;
+                                }
+                                .hoverbox {
+                                    width: 153px;
+                                    height: 150px;
+                                    top: 180px;
+                                    right: 182.8px;
+                                    .childIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 70px 10px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .addCard {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
+                                    .childIcon1 {
+                                        margin-right: 35.4px;
+                                    }
+                                }
+                                img {
+                                    width: 182.8px;
+                                    height: 180px;
+                                }
+                            }
+                            .title {
+                                width: 153px;
+                                margin: 6px;
+                            }
+                            p {
+                                .disprice {
+                                    font-size: 8pt;
+                                }
+                                .price {
+                                    color: $abi;
+                                    font-size: 8pt;
+                                }
+                            }
+                            .moderIcon {
+                                width: 20px;
+                                height: 20px;
+                                margin: 5px 10px 0 0;
+                                .more {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                .addCard {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                .like {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            .moderIcon1 {
+                                margin-right: 35.4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .news {
+        width: 100%;
+        height: 285px;
+        .center {
+            width: 800px;
+            height: 285px;
+            margin: 0 auto;
+            .title {
+                width: 798px;
+                height: 37px;
+                border: 1px solid #eeeeee;
+                border-bottom: 2px solid #eeeeee;
+                .right {
+                    width: 115px;
+                    height: 37px;
+                    i {
+                        width: 18px;
+                        height: 18px;
+                        margin: 9.5px;
+                    }
+                    h3 {
+                        font-size: 9pt;
+                        margin-top: 5px;
+                    }
+                    h5 {
+                        font-size: 6pt;
+                    }
+                }
+                a.more {
+                    font-size: 10pt;
+                    margin: 7px 0 0 9.5px;
+                }
+            }
+            .list {
+                width: 800px;
+                height: 235px;
+                margin-top: 10px;
+                ul {
+                    li {
+                        width: 193.75px;
+                        height: 235px;
+                        margin: 0 5px 0 0;
+                        .image {
+                            width: 191.75px;
+                            height: 113.75px;
+                            &:hover .hoverbox {
+                                width: 186.25px;
+                                height: 108.25px;
+                                top: 0;
+                                right: 0;
+                            }
+                            .hoverbox {
+                                width: 0;
+                                height: 0;
+                                top: 80px;
+                                right: 120px;
+                                a {
+                                    width: 88px;
+                                    height: 20px;
+                                    margin-top: 5px;
+                                    span {
+                                        width: 88px;
+                                        height: 19px;
+                                        font-size: 8pt;
+                                        color: #ffffff;
+                                        border-bottom: 1px solid #4e4d4c;
+                                        &:hover {
+                                            border-bottom: 1px solid #cb532a;
+                                        }
+                                    }
+                                }
+                            }
+                            img {
+                                width: 191.75px;
+                                height: 113.75px;
+                                border: 1px solid #c9c9c9;
+                            }
+                        }
+                        a {
+                            width: 191.75px;
+                            height: 20px;
+                            margin: 5px 0 15px 0;
+                            h2 {
+                                width: 125.75px;
+                                height: 20px;
+                                font-size: 7pt;
+                            }
+                            span {
+                                width: 66px;
+                                height: 15px;
+                                font-size: 7pt;
+                                color: #ffffff;
+                                border-bottom: 1px solid #6f6f6f;
+                                &:hover {
+                                    border-bottom: 1px solid #cb532a;
+                                }
+                            }
+                        }
+                        p {
+                            width: 191.75px;
+                            font-size: 8pt;
+                        }
+                        &:first-child {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

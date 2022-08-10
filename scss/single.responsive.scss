@@ -1,0 +1,1449 @@
+$abi:#27bec4;
+$narengi:#ff6a37;
+$khakestry:#aeaeae;
+@media(min-width:1024px) {
+    .single {
+        width: 100%;
+        min-height: 100px;
+        .center {
+            width: 1024px;
+            min-height: 100px;
+            margin: 0 auto;
+            .content {
+                width: 700px;
+                min-height: 100px;
+                margin: 30px 0;
+                .cover {
+                    width: 700px;
+                    min-height: 100px;
+                    .bigcover {
+                        width: 700px;
+                        height: 150px;
+                    }
+                    .smallwidth {
+                        width: 116px;
+                        height: 116px;
+                        border: 2px solid #ffffff;
+                        top: 70px;
+                        right: 25px;
+                    }
+                    .infromation {
+                        width: 700px;
+                        height: 90px;
+                        margin-top: 10px;
+                        .header {
+                            width: 698px;
+                            height: 53px;
+                            border: 1px solid #dfdfdf;
+                            h1 {
+                                font-size: 10pt;
+                                margin: 15px 170px 0 0;
+                            }
+                            .btnBuy {
+                                width: 100px;
+                                height: 28px;
+                                border-radius: 10px;
+                                font-size: 10pt;
+                                margin: 10px 0 0 15px;
+                            }
+                            p.price {
+                                margin: 10px 0 0 10px;
+                                .disprice {
+                                    font-size: 8pt;
+                                }
+                                .price {
+                                    font-size: 11pt;
+                                }
+                            }
+                        }
+                        .footer {
+                            width: 698px;
+                            height: 35px;
+                            border: 1px solid #dfdfdf;
+                            .ganer {
+                                margin: 5px 10px 0 0;
+                                font-size: 9pt;
+                                strong {
+                                    font-size: 10pt;
+                                }
+                            }
+                            .date {
+                                margin: 5px 10px 0 0;
+                                font-size: 9pt;
+                                strong {
+                                    font-size: 10pt;
+                                }
+                            }
+                            .rate {
+                                margin: 5px 0 0 10px;
+                                .chart {
+                                    width: 60px;
+                                    height: 15px;
+                                    border: 1px solid #d0d0d0;
+                                    .chartValue {
+                                        height: 10px;
+                                        margin: 2.5px;
+                                    }
+                                }
+                                p {
+                                    margin: -5px 0 0 5px;
+                                    .orange {
+                                        font-size: 11pt;
+                                    }
+                                    .gray {
+                                        font-size: 8pt;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .feature {
+                    width: 698px;
+                    height: 37px;
+                    margin: 10px 0 0 0;
+                    ul {
+                        li {
+                            width: 161.11px;
+                            height: 35px;
+                            border: 1px solid #dfdfdf;
+                            margin-right: 15px;
+                            &::after {
+                                width: 15px;
+                                height: 15px;
+                                content: "";
+                                top: 9px;
+                                right: 9px;
+                            }
+                            span {
+                                font-size: 10pt;
+                                margin: 5px 30px 0 0;
+                            }
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+                .fullText {
+                    width: 648px;
+                    min-height: 100px;
+                    padding: 25px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                }
+                .suggest {
+                    width: 698px;
+                    height: 370px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                    .header {
+                        width: 698px;
+                        height: 91px;
+                        margin: 0;
+                        .icon {
+                            width: 40px;
+                            height: 40px;
+                            margin: 28px 28px 0 0;
+                        }
+                        h6 {
+                            width: 508px;
+                            font-size: 13pt;
+                            margin: 30px 10px 0 0;
+                        }
+                        p {
+                            font-size: 10pt;
+                            margin: 0 10px 0 0;
+                        }
+                        span {
+                            top: 30px;
+                            left: 30px;
+                            letter-spacing: 15px;
+                            font-size: 16pt;
+                        }
+                    }
+                    .slider {
+                        width: 698px;
+                        height: 280px;
+                        .groupbox {
+                            width: 630px;
+                            height: 256px;
+                            margin: 2px 34px 0 0;
+                            .next {
+                                width: 30px;
+                                height: 80px;
+                                position: absolute;
+                                top: 140px;
+                                right: -15px;
+                                .icon {
+                                    width: 14px;
+                                    height: 23px;
+                                    margin: 29.5px 9px 0 0;
+                                }
+                            }
+                            .prev {
+                                width: 30px;
+                                height: 80px;
+                                top: 140px;
+                                left: -15px;
+                                .icon {
+                                    width: 14px;
+                                    height: 23px;
+                                    margin: 29.5px 9px 0 0;
+                                }
+                            }
+                            ul {
+                                li {
+                                    width: 194.8px;
+                                    height: 270px;
+                                    border: 1px solid #dfdfdf;
+                                    margin-right: 19.8px;
+                                    &:first-child {
+                                        margin-right: 0;
+                                    }
+                                    .image {
+                                        width: 182.8px;
+                                        height: 180px;
+                                        margin: 6px;
+                                        &:hover .hoverbox {
+                                            top: 0;
+                                            right: 0;
+                                        }
+                                        .hoverbox {
+                                            width: 182.8px;
+                                            height: 180px;
+                                            top: 180px;
+                                            right: 182.8px;
+                                            .childIcon {
+                                                width: 20px;
+                                                height: 20px;
+                                                margin: 80px 10px 0 0;
+                                                .more {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                                .addCard {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                                .like {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                            }
+                                            .childIcon1 {
+                                                margin-right: 51.4px;
+                                            }
+                                        }
+                                        img {
+                                            width: 182.8px;
+                                            height: 180px;
+                                        }
+                                    }
+                                    .title {
+                                        width: 182.8px;
+                                        margin: 6px;
+                                    }
+                                    p {
+                                        .disprice {
+                                            font-size: 8pt;
+                                        }
+                                        .price {
+                                            font-size: 8pt;
+                                        }
+                                    }
+                                    .moderIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 5px 10px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .addCard {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
+                                    .moderIcon1 {
+                                        margin-right: 51.4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .comment {
+                    width: 698px;
+                    min-height: 100px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                    .header {
+                        width: 698px;
+                        height: 100px;
+                        margin: 0;
+                        .icon {
+                            width: 35px;
+                            height: 33px;
+                            margin: 28px 28px 0 0;
+                        }
+                        h6 {
+                            width: 500px;
+                            font-size: 13pt;
+                            margin: 30px 10px 0 0;
+                        }
+                        p {
+                            font-size: 10pt;
+                            margin: 0 10px 0 0;
+                        }
+                        span {
+                            top: 30px;
+                            left: 30px;
+                            letter-spacing: 15px;
+                            font-size: 16pt;
+                        }
+                    }
+                    .list {
+                        width: 698px;
+                        min-height: 50px;
+                        ul {
+                            li {
+                                width: 650px;
+                                min-height: 50px;
+                                margin: 0 24px 10px 0;
+                                .commentText {
+                                    width: 630px;
+                                    min-height: 50px;
+                                    padding: 10px;
+                                    .head {
+                                        strong {
+                                            font-size: 10pt;
+                                        }
+                                        span {
+                                            font-size: 9pt;
+                                        }
+                                    }
+                                    .text {
+                                        font-size: 10pt;
+                                    }
+                                }
+                                .respons {
+                                    width: 630px;
+                                    min-height: 50px;
+                                    padding: 10px;
+                                    strong {
+                                        font-size: 10pt;
+                                    }
+                                    p {
+                                        font-size: 10pt;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sidebar {
+                width: 300px;
+                min-height: 100px;
+                margin: 30px 24px 30px 0;
+                .system {
+                    width: 298px;
+                    min-height: 100px;
+                    border: 1px solid #dfdfdf;
+                    margin: 0 0 20px 0;
+                    .title {
+                        width: 298px;
+                        height: 100px;
+                        p {
+                            margin: 20px 140px 0 0;
+                        }
+                    }
+                    .list {
+                        width: 298px;
+                        min-height: 100px;
+                        ul {
+                            li {
+                                width: 268px;
+                                height: 35px;
+                                margin: 0px 15px 15px 0;
+                                .subject {
+                                    width: 50px;
+                                    height: 35px;
+                                    span {
+                                        font-size: 12pt;
+                                        margin: 7px 0 0 7px;
+                                    }
+                                }
+                                .value {
+                                    width: 211px;
+                                    height: 33px;
+                                    margin: 0 0 0 5px;
+                                    border: 1px solid #eeeeee;
+                                    span {
+                                        font-size: 9pt;
+                                        margin: 7px 0 0 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .orange {
+                    &::after {
+                        width: 122px;
+                        height: 85px;
+                        top: 11px;
+                        right: 11px;
+                    }
+                }
+                .blue {
+                    &::after {
+                        width: 122px;
+                        height: 85px;
+                        top: 11px;
+                        right: 11px;
+                    }
+                }
+                .newslatter {
+                    width: 298px;
+                    height: 200px;
+                    img {
+                        width: 89px;
+                        height: 47px;
+                        margin: 10px 104.5px 10px 104.5px;
+                    }
+                    p {
+                        width: 178px;
+                        height: 27px;
+                        font-size: 6pt;
+                        margin: 10px 60px 0 0;
+                    }
+                    form {
+                        width: 180px;
+                        height: 20px;
+                        margin: 10px 59px;
+                        input[type=email] {
+                            width: 144px;
+                            height: 20px;
+                            color: #ffffff;
+                            margin-left: 28px;
+                            &::placeholder {
+                                font-size: 8pt;
+                                margin-left: 0px;
+                            }
+                        }
+                        &::after {
+                            width: 1px;
+                            height: 8px;
+                            top: 6px;
+                            left: 25px;
+                        }
+                        &::before {
+                            width: 11px;
+                            height: 9px;
+                            top: 6px;
+                            left: 9px;
+                        }
+                        input[type=submit] {
+                            width: 100px;
+                            height: 20px;
+                            margin: 6px 40px 0px 40px;
+                        }
+                    }
+                }
+                .namad {
+                    width: 296px;
+                    min-height: 146px;
+                    margin: 10px 0 0 0;
+                    border: 1px solid #dfdfdf;
+                    img {
+                        margin: 10px 17px 17px 0;
+                    }
+                }
+                .ads {
+                    width: 296px;
+                    height: 288;
+                    border: 1px solid #dfdfdf;
+                    margin: 15px 0 0 0;
+                    a {
+                        img {
+                            width: 120px;
+                            height: 240px;
+                            margin: 15px 19.33px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    .single {
+        width: 100%;
+        min-height: 100px;
+        .center {
+            width: 1024px;
+            min-height: 100px;
+            margin: 0 auto;
+            .content {
+                width: 700px;
+                min-height: 100px;
+                margin: 30px 0;
+                .cover {
+                    width: 700px;
+                    min-height: 100px;
+                    .bigcover {
+                        width: 700px;
+                        height: 150px;
+                    }
+                    .smallwidth {
+                        width: 116px;
+                        height: 116px;
+                        border: 2px solid #ffffff;
+                        top: 70px;
+                        right: 25px;
+                    }
+                    .infromation {
+                        width: 700px;
+                        height: 90px;
+                        margin-top: 10px;
+                        .header {
+                            width: 698px;
+                            height: 53px;
+                            border: 1px solid #dfdfdf;
+                            h1 {
+                                font-size: 10pt;
+                                margin: 15px 170px 0 0;
+                            }
+                            .btnBuy {
+                                width: 100px;
+                                height: 28px;
+                                border-radius: 10px;
+                                font-size: 10pt;
+                                margin: 10px 0 0 15px;
+                            }
+                            p.price {
+                                margin: 10px 0 0 10px;
+                                .disprice {
+                                    font-size: 8pt;
+                                }
+                                .price {
+                                    font-size: 11pt;
+                                }
+                            }
+                        }
+                        .footer {
+                            width: 698px;
+                            height: 35px;
+                            border: 1px solid #dfdfdf;
+                            .ganer {
+                                margin: 5px 10px 0 0;
+                                font-size: 9pt;
+                                strong {
+                                    font-size: 10pt;
+                                }
+                            }
+                            .date {
+                                margin: 5px 10px 0 0;
+                                font-size: 9pt;
+                                strong {
+                                    font-size: 10pt;
+                                }
+                            }
+                            .rate {
+                                margin: 5px 0 0 10px;
+                                .chart {
+                                    width: 60px;
+                                    height: 15px;
+                                    border: 1px solid #d0d0d0;
+                                    .chartValue {
+                                        height: 10px;
+                                        margin: 2.5px;
+                                    }
+                                }
+                                p {
+                                    margin: -5px 0 0 5px;
+                                    .orange {
+                                        font-size: 11pt;
+                                    }
+                                    .gray {
+                                        font-size: 8pt;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .feature {
+                    width: 698px;
+                    height: 37px;
+                    margin: 10px 0 0 0;
+                    ul {
+                        li {
+                            width: 161.11px;
+                            height: 35px;
+                            border: 1px solid #dfdfdf;
+                            margin-right: 15px;
+                            &::after {
+                                width: 15px;
+                                height: 15px;
+                                content: "";
+                                top: 9px;
+                                right: 9px;
+                            }
+                            span {
+                                font-size: 10pt;
+                                margin: 5px 30px 0 0;
+                            }
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+                .fullText {
+                    width: 648px;
+                    min-height: 100px;
+                    padding: 25px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                }
+                .suggest {
+                    width: 698px;
+                    height: 370px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                    .header {
+                        width: 698px;
+                        height: 91px;
+                        margin: 0;
+                        .icon {
+                            width: 40px;
+                            height: 40px;
+                            margin: 28px 28px 0 0;
+                        }
+                        h6 {
+                            width: 508px;
+                            font-size: 13pt;
+                            margin: 30px 10px 0 0;
+                        }
+                        p {
+                            font-size: 10pt;
+                            margin: 0 10px 0 0;
+                        }
+                        span {
+                            top: 30px;
+                            left: 30px;
+                            letter-spacing: 15px;
+                            font-size: 16pt;
+                        }
+                    }
+                    .slider {
+                        width: 698px;
+                        height: 280px;
+                        .groupbox {
+                            width: 630px;
+                            height: 256px;
+                            margin: 2px 34px 0 0;
+                            .next {
+                                width: 30px;
+                                height: 80px;
+                                position: absolute;
+                                top: 140px;
+                                right: -15px;
+                                .icon {
+                                    width: 14px;
+                                    height: 23px;
+                                    margin: 29.5px 9px 0 0;
+                                }
+                            }
+                            .prev {
+                                width: 30px;
+                                height: 80px;
+                                top: 140px;
+                                left: -15px;
+                                .icon {
+                                    width: 14px;
+                                    height: 23px;
+                                    margin: 29.5px 9px 0 0;
+                                }
+                            }
+                            ul {
+                                li {
+                                    width: 194.8px;
+                                    height: 270px;
+                                    border: 1px solid #dfdfdf;
+                                    margin-right: 19.8px;
+                                    &:first-child {
+                                        margin-right: 0;
+                                    }
+                                    .image {
+                                        width: 182.8px;
+                                        height: 180px;
+                                        margin: 6px;
+                                        &:hover .hoverbox {
+                                            top: 0;
+                                            right: 0;
+                                        }
+                                        .hoverbox {
+                                            width: 182.8px;
+                                            height: 180px;
+                                            top: 180px;
+                                            right: 182.8px;
+                                            .childIcon {
+                                                width: 20px;
+                                                height: 20px;
+                                                margin: 80px 10px 0 0;
+                                                .more {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                                .addCard {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                                .like {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                            }
+                                            .childIcon1 {
+                                                margin-right: 51.4px;
+                                            }
+                                        }
+                                        img {
+                                            width: 182.8px;
+                                            height: 180px;
+                                        }
+                                    }
+                                    .title {
+                                        width: 182.8px;
+                                        margin: 6px;
+                                    }
+                                    p {
+                                        .disprice {
+                                            font-size: 8pt;
+                                        }
+                                        .price {
+                                            font-size: 8pt;
+                                        }
+                                    }
+                                    .moderIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 5px 10px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .addCard {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
+                                    .moderIcon1 {
+                                        margin-right: 51.4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .comment {
+                    width: 698px;
+                    min-height: 100px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                    .header {
+                        width: 698px;
+                        height: 100px;
+                        margin: 0;
+                        .icon {
+                            width: 35px;
+                            height: 33px;
+                            margin: 28px 28px 0 0;
+                        }
+                        h6 {
+                            width: 500px;
+                            font-size: 13pt;
+                            margin: 30px 10px 0 0;
+                        }
+                        p {
+                            font-size: 10pt;
+                            margin: 0 10px 0 0;
+                        }
+                        span {
+                            top: 30px;
+                            left: 30px;
+                            letter-spacing: 15px;
+                            font-size: 16pt;
+                        }
+                    }
+                    .list {
+                        width: 698px;
+                        min-height: 50px;
+                        ul {
+                            li {
+                                width: 650px;
+                                min-height: 50px;
+                                margin: 0 24px 10px 0;
+                                .commentText {
+                                    width: 630px;
+                                    min-height: 50px;
+                                    padding: 10px;
+                                    .head {
+                                        strong {
+                                            font-size: 10pt;
+                                        }
+                                        span {
+                                            font-size: 9pt;
+                                        }
+                                    }
+                                    .text {
+                                        font-size: 10pt;
+                                    }
+                                }
+                                .respons {
+                                    width: 630px;
+                                    min-height: 50px;
+                                    padding: 10px;
+                                    strong {
+                                        font-size: 10pt;
+                                    }
+                                    p {
+                                        font-size: 10pt;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sidebar {
+                width: 300px;
+                min-height: 100px;
+                margin: 30px 24px 30px 0;
+                .system {
+                    width: 298px;
+                    min-height: 100px;
+                    border: 1px solid #dfdfdf;
+                    margin: 0 0 20px 0;
+                    .title {
+                        width: 298px;
+                        height: 100px;
+                        p {
+                            margin: 20px 140px 0 0;
+                        }
+                    }
+                    .list {
+                        width: 298px;
+                        min-height: 100px;
+                        ul {
+                            li {
+                                width: 268px;
+                                height: 35px;
+                                margin: 0px 15px 15px 0;
+                                .subject {
+                                    width: 50px;
+                                    height: 35px;
+                                    span {
+                                        font-size: 12pt;
+                                        margin: 7px 0 0 7px;
+                                    }
+                                }
+                                .value {
+                                    width: 211px;
+                                    height: 33px;
+                                    margin: 0 0 0 5px;
+                                    border: 1px solid #eeeeee;
+                                    span {
+                                        font-size: 9pt;
+                                        margin: 7px 0 0 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .orange {
+                    &::after {
+                        width: 122px;
+                        height: 85px;
+                        top: 11px;
+                        right: 11px;
+                    }
+                }
+                .blue {
+                    &::after {
+                        width: 122px;
+                        height: 85px;
+                        top: 11px;
+                        right: 11px;
+                    }
+                }
+                .newslatter {
+                    width: 298px;
+                    height: 200px;
+                    img {
+                        width: 89px;
+                        height: 47px;
+                        margin: 10px 104.5px 10px 104.5px;
+                    }
+                    p {
+                        width: 178px;
+                        height: 27px;
+                        font-size: 6pt;
+                        margin: 10px 60px 0 0;
+                    }
+                    form {
+                        width: 180px;
+                        height: 20px;
+                        margin: 10px 59px;
+                        input[type=email] {
+                            width: 144px;
+                            height: 20px;
+                            color: #ffffff;
+                            margin-left: 28px;
+                            &::placeholder {
+                                font-size: 8pt;
+                                margin-left: 0px;
+                            }
+                        }
+                        &::after {
+                            width: 1px;
+                            height: 8px;
+                            top: 6px;
+                            left: 25px;
+                        }
+                        &::before {
+                            width: 11px;
+                            height: 9px;
+                            top: 6px;
+                            left: 9px;
+                        }
+                        input[type=submit] {
+                            width: 100px;
+                            height: 20px;
+                            margin: 6px 40px 0px 40px;
+                        }
+                    }
+                }
+                .namad {
+                    width: 296px;
+                    min-height: 146px;
+                    margin: 10px 0 0 0;
+                    border: 1px solid #dfdfdf;
+                    img {
+                        margin: 10px 17px 17px 0;
+                    }
+                }
+                .ads {
+                    width: 296px;
+                    height: 288;
+                    border: 1px solid #dfdfdf;
+                    margin: 15px 0 0 0;
+                    a {
+                        img {
+                            width: 120px;
+                            height: 240px;
+                            margin: 15px 19.33px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:996px) {
+    .single {
+        width: 100%;
+        min-height: 100px;
+        .center {
+            width: 800px;
+            min-height: 100px;
+            margin: 0 auto;
+            .content {
+                width: 574px;
+                min-height: 100px;
+                margin: 30px 2px 0 0;
+                .cover {
+                    width: 574px;
+                    min-height: 100px;
+                    .bigcover {
+                        width: 574px;
+                        height: 150px;
+                    }
+                    .smallwidth {
+                        width: 116px;
+                        height: 116px;
+                        border: 2px solid #ffffff;
+                        top: 70px;
+                        right: 25px;
+                    }
+                    .infromation {
+                        width: 574px;
+                        height: 90px;
+                        margin-top: 10px;
+                        .header {
+                            width: 572px;
+                            height: 53px;
+                            border: 1px solid #dfdfdf;
+                            h1 {
+                                font-size: 10pt;
+                                margin: 15px 170px 0 0;
+                            }
+                            .btnBuy {
+                                width: 100px;
+                                height: 28px;
+                                border-radius: 10px;
+                                font-size: 10pt;
+                                margin: 10px 0 0 15px;
+                            }
+                            p.price {
+                                margin: 10px 0 0 10px;
+                                .disprice {
+                                    font-size: 8pt;
+                                }
+                                .price {
+                                    font-size: 11pt;
+                                }
+                            }
+                        }
+                        .footer {
+                            width: 572px;
+                            height: 35px;
+                            border: 1px solid #dfdfdf;
+                            .ganer {
+                                margin: 5px 10px 0 0;
+                                font-size: 9pt;
+                                strong {
+                                    font-size: 10pt;
+                                }
+                            }
+                            .date {
+                                margin: 5px 10px 0 0;
+                                font-size: 9pt;
+                                strong {
+                                    font-size: 10pt;
+                                }
+                            }
+                            .rate {
+                                margin: 5px 0 0 10px;
+                                .chart {
+                                    width: 60px;
+                                    height: 15px;
+                                    border: 1px solid #d0d0d0;
+                                    .chartValue {
+                                        height: 10px;
+                                        margin: 2.5px;
+                                    }
+                                }
+                                p {
+                                    margin: -5px 0 0 5px;
+                                    .orange {
+                                        font-size: 11pt;
+                                    }
+                                    .gray {
+                                        font-size: 8pt;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .feature {
+                    width: 572px;
+                    height: 37px;
+                    margin: 10px 0 0 0;
+                    ul {
+                        li {
+                            width: 128px;
+                            height: 35px;
+                            border: 1px solid #dfdfdf;
+                            margin-right: 10px;
+                            &::after {
+                                width: 15px;
+                                height: 15px;
+                                content: "";
+                                top: 9px;
+                                right: 9px;
+                            }
+                            span {
+                                font-size: 8pt;
+                                margin: 8px 30px 0 0;
+                            }
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+                .fullText {
+                    width: 522px;
+                    min-height: 100px;
+                    padding: 25px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                }
+                .suggest {
+                    width: 572px;
+                    height: 370px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                    .header {
+                        width: 572px;
+                        height: 91px;
+                        margin: 0;
+                        .icon {
+                            width: 40px;
+                            height: 40px;
+                            margin: 28px 28px 0 0;
+                        }
+                        h6 {
+                            width: 490px;
+                            font-size: 13pt;
+                            margin: 30px 10px 0 0;
+                        }
+                        p {
+                            font-size: 10pt;
+                            margin: 0 10px 0 0;
+                        }
+                        span {
+                            top: 30px;
+                            left: 30px;
+                            letter-spacing: 15px;
+                            font-size: 16pt;
+                        }
+                    }
+                    .slider {
+                        width: 572px;
+                        height: 280px;
+                        .groupbox {
+                            width: 572px;
+                            height: 256px;
+                            margin: 2px 5px 0 0;
+                            .next {
+                                width: 30px;
+                                height: 80px;
+                                position: absolute;
+                                top: 140px;
+                                right: -15px;
+                                .icon {
+                                    width: 14px;
+                                    height: 23px;
+                                    margin: 29.5px 9px 0 0;
+                                }
+                            }
+                            .prev {
+                                width: 30px;
+                                height: 80px;
+                                top: 140px;
+                                left: -15px;
+                                .icon {
+                                    width: 14px;
+                                    height: 23px;
+                                    margin: 29.5px 9px 0 0;
+                                }
+                            }
+                            ul {
+                                li {
+                                    width: 178px;
+                                    height: 270px;
+                                    border: 1px solid #dfdfdf;
+                                    margin-right: 10px;
+                                    &:first-child {
+                                        margin-right: 0;
+                                    }
+                                    .image {
+                                        width: 164.86px;
+                                        height: 162.66px;
+                                        margin: 6px;
+                                        &:hover .hoverbox {
+                                            top: 0;
+                                            right: 0;
+                                        }
+                                        .hoverbox {
+                                            width: 182.8px;
+                                            height: 180px;
+                                            top: 180px;
+                                            right: 182.8px;
+                                            .childIcon {
+                                                width: 20px;
+                                                height: 20px;
+                                                margin: 80px 10px 0 0;
+                                                .more {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                                .addCard {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                                .like {
+                                                    width: 20px;
+                                                    height: 20px;
+                                                }
+                                            }
+                                            .childIcon1 {
+                                                margin-right: 51.4px;
+                                            }
+                                        }
+                                        img {
+                                            width: 182.8px;
+                                            height: 180px;
+                                        }
+                                    }
+                                    .title {
+                                        width: 164px;
+                                        margin: 6px;
+                                    }
+                                    p {
+                                        .disprice {
+                                            font-size: 8pt;
+                                        }
+                                        .price {
+                                            font-size: 8pt;
+                                        }
+                                    }
+                                    .moderIcon {
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 5px 10px 0 0;
+                                        .more {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .addCard {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        .like {
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                    }
+                                    .moderIcon1 {
+                                        margin-right: 51.4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .comment {
+                    width: 572px;
+                    min-height: 100px;
+                    border: 1px solid #dfdfdf;
+                    margin-top: 15px;
+                    .header {
+                        width: 572px;
+                        height: 100px;
+                        margin: 0;
+                        .icon {
+                            width: 35px;
+                            height: 33px;
+                            margin: 28px 28px 0 0;
+                        }
+                        h6 {
+                            width: 499px;
+                            font-size: 13pt;
+                            margin: 30px 10px 0 0;
+                        }
+                        p {
+                            font-size: 10pt;
+                            margin: 0 10px 0 0;
+                        }
+                        span {
+                            top: 30px;
+                            left: 30px;
+                            letter-spacing: 15px;
+                            font-size: 16pt;
+                        }
+                    }
+                    .list {
+                        width: 572px;
+                        min-height: 50px;
+                        ul {
+                            li {
+                                width: 650px;
+                                min-height: 50px;
+                                margin: 0 24px 10px 0;
+                                .commentText {
+                                    width: 502px;
+                                    min-height: 50px;
+                                    padding: 10px;
+                                    .head {
+                                        strong {
+                                            font-size: 10pt;
+                                        }
+                                        span {
+                                            font-size: 9pt;
+                                        }
+                                    }
+                                    .text {
+                                        font-size: 10pt;
+                                    }
+                                }
+                                .respons {
+                                    width: 502px;
+                                    min-height: 50px;
+                                    padding: 10px;
+                                    strong {
+                                        font-size: 10pt;
+                                    }
+                                    p {
+                                        font-size: 10pt;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sidebar {
+                width: 200px;
+                min-height: 100px;
+                margin: 30px 24px 30px 0;
+                .system {
+                    width: 193px;
+                    min-height: 100px;
+                    border: 1px solid #dfdfdf;
+                    margin: 0 0 20px 5px;
+                    .title {
+                        width: 198px;
+                        height: 100px;
+                        p {
+                            font-size: 8pt;
+                            margin: 20px 140px 0 0;
+                        }
+                    }
+                    .list {
+                        width: 198px;
+                        min-height: 100px;
+                        ul {
+                            li {
+                                width: 190px;
+                                height: 35px;
+                                margin: 0px 1px 1px 0;
+                                .subject {
+                                    width: 30px;
+                                    height: 35px;
+                                    span {
+                                        font-size: 8pt;
+                                        margin: 5px 0 0 2px;
+                                    }
+                                }
+                                .value {
+                                    width: 150px;
+                                    height: 33px;
+                                    margin: 0 0 0 5px;
+                                    border: 1px solid #eeeeee;
+                                    span {
+                                        font-size: 8pt;
+                                        margin: 7px 0 0 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .orange {
+                    &::after {
+                        width: 122px;
+                        height: 85px;
+                        top: 11px;
+                        right: 11px;
+                    }
+                }
+                .blue {
+                    &::after {
+                        width: 122px;
+                        height: 85px;
+                        top: 11px;
+                        right: 11px;
+                    }
+                }
+                .newslatter {
+                    width: 198px;
+                    height: 200px;
+                    img {
+                        width: 89px;
+                        height: 47px;
+                        margin: 10px 70.5px 10px 0;
+                    }
+                    p {
+                        width: 178px;
+                        height: 27px;
+                        font-size: 6pt;
+                        margin: 10px 11px 0 0;
+                    }
+                    form {
+                        width: 180px;
+                        height: 20px;
+                        margin: 10px 10px;
+                        input[type=email] {
+                            width: 144px;
+                            height: 20px;
+                            color: #ffffff;
+                            margin-left: 28px;
+                            &::placeholder {
+                                font-size: 8pt;
+                                margin-left: 0px;
+                            }
+                        }
+                        &::after {
+                            width: 1px;
+                            height: 8px;
+                            top: 6px;
+                            left: 25px;
+                        }
+                        &::before {
+                            width: 11px;
+                            height: 9px;
+                            top: 6px;
+                            left: 9px;
+                        }
+                        input[type=submit] {
+                            width: 100px;
+                            height: 20px;
+                            margin: 6px 40px 0px 40px;
+                        }
+                    }
+                }
+                .namad {
+                    width: 198px;
+                    min-height: 146px;
+                    margin: 10px 0 0 0;
+                    border: 1px solid #dfdfdf;
+                    img {
+                        margin: 10px 17px 17px 0;
+                    }
+                }
+                .ads {
+                    width: 198px;
+                    height: 525px;
+                    border: 1px solid #dfdfdf;
+                    margin: 15px 0 0 0;
+                    a {
+                        img {
+                            width: 120px;
+                            height: 240px;
+                            margin: 15px 19.33px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
